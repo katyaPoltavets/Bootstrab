@@ -1,0 +1,140 @@
+input:focus,
+textarea:focus
+input:active,
+textarea:active {
+    outline: 0 !important;
+    border: transparent !important;
+    box-shadow: none !important;
+}
+
+
+
+body {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif; 
+}
+
+body h1 {
+   
+    font-family: 'WisdomScriptAJ';
+    color: #fed136;
+
+
+}
+
+h2,h3,h4,h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #222222;
+    
+}
+
+section {
+    padding: 75px 0 85px;
+}
+
+.subtitle {
+    color: #777777;
+    font-style: italic;
+    
+}
+
+/* swrvices */
+
+
+.services .row  {
+    padding: 35px 0;
+}
+.card {
+    margin-right: 0;
+    border: none;
+}
+
+.card-img {
+    width: 75px;
+    border: 3px solid #fed136;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+
+.card-img-top {
+    /* width: 75px;
+    border: 3px solid #fed136;
+    border-radius: 50%;
+    padding: 10px; */
+
+    height: 50px;
+    width: 50px;  
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Roboto Slab', serif;
+    color: #777777;
+}
+
+/* Contact us */
+
+.contact {
+    height: 700px;
+    color: #ffffff;
+    background-color: #222222;
+    background-image: url(../img/Map\ Image.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+ text-transform: uppercase;
+
+}
+
+.contact textarea {
+    padding: 13px;
+}
+
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+nav a {
+    
+    color: #222222;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: #fed136;
+    transition: all .5s;
+    
+}
+
+.contact-us {
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.btn-warning {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.btn {
+    height: 65px;
+   width: 240px;
+}

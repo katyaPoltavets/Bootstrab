@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "WisdomScriptAJ";
+    src: url("../fonts/Wisdom_Script_AJ/WisdomScriptAJ.eot");
+    src: url("../fonts/Wisdom_Script_AJ/WisdomScriptAJ.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Wisdom_Script_AJ/WisdomScriptAJ.woff") format("woff"),
+    url("../fonts/Wisdom_Script_AJ/WisdomScriptAJ.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  
